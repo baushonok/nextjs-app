@@ -8,6 +8,6 @@ interface Props {
 
 export const Item: FC<Props> = ({ index }) => (
     <div className={styles.item}>
-        item-{index}
+        <a href={`list/${index}`}>item-{index}</a>
     </div>
 );
