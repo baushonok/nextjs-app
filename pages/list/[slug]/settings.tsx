@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import React from 'react';
 
-const Home = () => (
+const ItemSettings = () => (
     <div>
       <Head>
         <title>Experiments with Next.js</title>
@@ -16,4 +16,4 @@ const Home = () => (
     </div>
 );
 
-export default Home;
+export default ItemSettings;
