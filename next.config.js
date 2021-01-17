@@ -9,7 +9,7 @@ module.exports = {
             {
                 source: '/list/:slug((?!new$)[^/]+)',
                 destination: '/list/:slug/settings',
-                permanent: false
+                permanent: true
             }
         ];
     }
